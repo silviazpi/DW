@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta property="author" content="Silvia Romero Azpitarte">
+    <title>Galería</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mainCss.css">
+    <link rel="stylesheet" type="text/css" href="css/menuCss.css">
+    <link rel="stylesheet" type="text/css" href="css/galeria.css">
+    <link rel="stylesheet" type="text/css" href="css/cookies.css">
+    <link rel="shortcut icon" type="image/png" href="mult/favicon.png"/>
+</head>
+
+<body id="body">
+
+    <div id="cookies">
+        <p>Esta página web usa cookies para ofrecerle la mejor experiencia posible. Si continúa utilizando esta web da consentimiento a las cookies utilizadas.</p>
+        <p><a href="#" id="close-cookies">Entendido</a></p>
+    </div>
+
+    <div class="logo"><a class="home" href="index.html">hablando<br>con Sofía</a></div>
+
+    <label>
+            <input type="checkbox" id="menuCheck"  onclick="disableScroll()">
+            <span class = "menu">
+                <span class="hamburger"></span>
+            </span>
+            <ul>
+                <li><a href="index.html">Inicio</a>
+                <li><a href="autores.html">Autores</a>
+                <li><a href="galeria.html">Galería</a>
+                <li><a href="contacto.html">Contacto</a>
+            </ul>
+    </label>
+
+
+    <section class="gallery">
+        <div class="container text-center">
+            <h2> Las artes son espejo del bien, la verdad y la belleza </h2>
+            <p>Sofía te invita a conocerlas en detalle a través de los siguientes enlaces.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <figure class="col-sm-12 col-md-7 img-container">
+                    <a href="mult/escultura.jpg" data-toggle="lightbox" data-gallery="gallery">
+                        <img alt="escultura" src="mult/escultura.jpg" />
+                    </a>
+                    <figcaption class="img-content">
+                        <h2 class="title">Escultura</h2>
+                    </figcaption>
+                    <span class="img-content-hover">
+                                <h2 class="title">Escultura</h2>
+                            </span>
+                </figure>
+
+                <figure class="col-sm-12 col-md-5 img-container">
+                    <a href="mult/pintura.jpg" data-toggle="lightbox" data-gallery="gallery">
+                        <img src="mult/pintura.jpg" alt="pintura" />
+                    </a>
+                    <figcaption class="img-content">
+                        <h2 class="title">Pintura</h2>
+                    </figcaption>
+                    <span class="img-content-hover">
+                            <h2 class="title">Pintura</h2>
+                        </span>
+                </figure>
+            </div>
+
+            <div class="row">
+                <figure class="col-sm-12 col-md-4 img-container">
+                    <a href="mult/arquitectura.jpg" data-toggle="lightbox" data-gallery="gallery">
+                        <img src="mult/arquitectura.jpg" alt="arquitectura" />
+                    </a>
+                    <figcaption class="img-content">
+                        <h2 class="title">Arquitectura</h2>
+                    </figcaption>
+                    <span class="img-content-hover">
+                                <h2 class="title">Arquitectura</h2>
+                            </span>
+                </figure>
+                <figure class="col-sm-12 col-md-4 img-container">
+                    <a href="mult/danza.jpg" data-toggle="lightbox" data-gallery="gallery">
+                        <img src="mult/danza.jpg" alt="danza" />
+                    </a>
+                    <figcaption class="img-content">
+                        <h2 class="title">Danza</h2>
+                    </figcaption>
+                    <span class="img-content-hover">
+                                <h2 class="title">Danza</h2>
+                        </span>
+                </figure>
+                <figure class="col-sm-12 col-md-4 img-container">
+                    <a href="mult/literatura.jpg" data-toggle="lightbox" data-gallery="gallery">
+                        <img src="mult/literatura.jpg" alt="literatura" />
+                    </a>
+                    <figcaption class="img-content">
+                        <h2 class="title">Literatura</h2>
+                    </figcaption>
+                    <span class="img-content-hover">
+                                <h2 class="title">Literatura</h2>
+                            </span>
+                </figure>
+            </div>
+
+            <div class="row">
+                <figure class="col-sm-12 col-md-5 img-container">
+                    <a href="mult/cine.jpg" data-toggle="lightbox" data-gallery="gallery">
+                        <img src="mult/cine.jpg" alt="cine" />
+                    </a>
+                    <figcaption class="img-content">
+                        <h2 class="title">Cine</h2>
+                    </figcaption>
+                    <span class="img-content-hover">
+                                <h2 class="title">Cine</h2>
+                            </span>
+                </figure>
+                <figure class="col-sm-12 col-md-7 img-container">
+                    <a href="mult/musica.jpg" data-toggle="lightbox" data-gallery="gallery">
+                        <img src="mult/musica.jpg" alt="música" />
+                    </a>
+                    <figcaption class="img-content">
+                        <h2 class="title">Música</h2>
+                    </figcaption>
+                    <span class="img-content-hover">
+                                <h2 class="title">Música</h2>
+                            </span>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p><a href="index.html">Inicio</a> | <a href="autores.html">Autores</a> | <a href="galeria.html">Galería</a> | <a href="contacto.html">Contacto</a> | <a href="contacto.html#about">About us</a></p>
+        <p>Hablando con Sofía © 2019</p>
+        <hr>
+        <p>Esta página web usa cookies para ofrecerle la mejor experiencia posible. Si continúa utilizando esta web da consentimiento a las cookies utilizadas.</p>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/galeria.js" type="text/javascript"></script>
+    <script src="js/cookies.js" type="text/javascript"></script>
+</body>
+
+</html>
